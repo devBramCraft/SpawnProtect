@@ -1,0 +1,4 @@
+name: SpawnProtect
+version: '1.0'
+main: me.bramwijnen.spawnProtect.SpawnProtect
+api-version: '1.21'
