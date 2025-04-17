@@ -1,4 +1,18 @@
 name: SpawnProtect
-version: '1.0'
-main: me.bramwijnen.spawnProtect.SpawnProtect
-api-version: '1.21'
+main: bramcraft.spawnprotect.SpawnProtect
+version: 1.0
+api-version: 1.20
+commands:
+  setpos1:
+    description: Set spawn protection zone position 1
+    usage: /setpos1
+  setpos2:
+    description: Set spawn protection zone position 2
+    usage: /setpos2
+permissions:
+  spawnprotect.setpos:
+    description: Allows player to set spawn zone positions
+    default: op
+  spawnprotect.bypass.break:
+    description: Allows player to break blocks in the spawn zone
+    default: op
